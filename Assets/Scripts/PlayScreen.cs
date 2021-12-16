@@ -24,19 +24,25 @@ public class PlayScreen : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Escape))
         {
-            canvas4.SetActive(false);
-            canvas3.SetActive(true);
-            singleplayer.Stop();
-            coop.Stop();
-            online.Stop();
-            maintheme.Play();
+            goBack();
         }
     }
-    
+    public void goBack()
+    {
+        canvas4.SetActive(false);
+        canvas3.SetActive(true);
+        singleplayer.Stop();
+        coop.Stop();
+        online.Stop();
+        maintheme.Play();
+    }
+
     public void changeCanvasSP()
     {
         canvas7.SetActive(true);
         canvas4.SetActive(false);
     }
+    
+
 }
 
