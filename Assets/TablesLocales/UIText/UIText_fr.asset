@@ -90,5 +90,22 @@ MonoBehaviour:
     m_Localized: Cadence de Tir
     m_Metadata:
       m_Items: []
+  - m_Id: 10274953278525440
+    m_Localized: Appuyer sur un bouton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10275448063791104
+    m_Localized: "\rAppuyez sur 'espace' pour sauter"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10275391352606720
+    m_Localized: "Ann\xE9e 3021,\r\nLa race humaine est proche de l'extinction \xE0
+      cause d'une attaque extraterrestre.\r\n\r\nLa tentative de les arr\xEAter des
+      nations unies a \xE9chou\xE9 ; \xE9tant donn\xE9 leur sup\xE9riorit\xE9 num\xE9rique
+      et leur technologie de pointe, ils ont un net avantage pour gagner cette guerre.\r\n\r\nMaintenant,
+      avec la plan\xE8te en d\xE9composition et l'extinction limite de la race humaine,
+      nous avons encore un dernier as dans la manche..."
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

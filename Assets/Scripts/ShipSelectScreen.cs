@@ -32,23 +32,27 @@ public class ShipSelectScreen : MonoBehaviour
         shipName2.text = shipArray[chosenShip].spaceshipName;
         shipName3.text = shipArray[chosenShip].spaceshipName;
 
-
-        if (speedSlider.value < (shipArray[chosenShip].speed - 0.09))
+        //Se utiliza el if para detectar si el valor actual del slider es menor o mayor que el que debería tener según el valor que tenga la nave seleccionada.
+        //Si se da el caso de que el valor sea menor, sumamos al valor del slider con el Mathf.Lerp para que llegue poco a poco al valor que haga falta.
+        if (speedSlider.value < (shipArray[chosenShip].speed - 0.09)) //El 0.09 existe para que el slider no se pase.
         {
             speedSlider.value += Mathf.Lerp(0, shipArray[chosenShip].speed, speed);
+            //Mathf.Lerp -> Se le asigna un primer valor y un segundo valor para diferenciar, luego un tercero para calcular el número que diferencie.
         }
+        //Bajar el slider.
         if (speedSlider.value > (shipArray[chosenShip].speed + 0.09))
         {
-            speedSlider.value -= Mathf.Lerp(shipArray[chosenShip].speed, speedSlider.value, speed) / 25;
+            speedSlider.value -= Mathf.Lerp(0, shipArray[chosenShip].speed, speed) * 4;
         }
 
+        //Estos dos próximos grupos de if hacen exactamente lo mismo que el anterior pero para los otros sliders.
         if (shieldSlider.value < (shipArray[chosenShip].shield - 0.09))
         {
             shieldSlider.value += Mathf.Lerp(0, shipArray[chosenShip].shield, speed);
         }
         if (shieldSlider.value > (shipArray[chosenShip].shield + 0.09))
         {
-            shieldSlider.value -= Mathf.Lerp(shipArray[chosenShip].shield, shieldSlider.value, speed) / 25;
+            shieldSlider.value -= Mathf.Lerp(0, shipArray[chosenShip].shield, speed) *4;
         }
 
         if (rofSlider.value < (shipArray[chosenShip].rof - 0.09))
@@ -57,9 +61,10 @@ public class ShipSelectScreen : MonoBehaviour
         }
         if (rofSlider.value > (shipArray[chosenShip].rof + 0.09))
         {
-            rofSlider.value -= Mathf.Lerp(shipArray[chosenShip].rof, rofSlider.value, speed) / 25;
+            rofSlider.value -= Mathf.Lerp(0, shipArray[chosenShip].rof, speed) *4;
         }
 
+        //Activación de diferentes naves.
         if (chosenShip == 0)
         {
             selectedShip[0].SetActive(true);

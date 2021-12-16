@@ -90,5 +90,22 @@ MonoBehaviour:
     m_Localized: Velocidad de Disparo
     m_Metadata:
       m_Items: []
+  - m_Id: 10274953278525440
+    m_Localized: "Presiona cualquier bot\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10275448063791104
+    m_Localized: Presiona 'Espacio' para saltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10275391352606720
+    m_Localized: "A\xF1o 3021,\nLa raza humana se ve al borde de la extinci\xF3n
+      por culpa de un ataque alien\xEDgena.\n\nPese al intento unido de todas las
+      naciones de intentar detenerlos, su superioridad num\xE9rica y su avanzada
+      tecnolog\xEDa, les ha otorgado la ventaja que necesitaban para ganar la guerra.\n\nAhora,
+      con el planeta en decadencia y la raza humana rozando su extinci\xF3n, nos
+      queda un \xFAltimo as en la manga..."
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

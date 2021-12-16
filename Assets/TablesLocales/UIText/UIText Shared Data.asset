@@ -89,6 +89,18 @@ MonoBehaviour:
     m_Key: k_RoF
     m_Metadata:
       m_Items: []
+  - m_Id: 10274953278525440
+    m_Key: k_PressAnyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10275391352606720
+    m_Key: k_IntroText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10275448063791104
+    m_Key: k_IntroSkip
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

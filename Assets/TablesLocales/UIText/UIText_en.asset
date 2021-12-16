@@ -90,5 +90,30 @@ MonoBehaviour:
     m_Localized: Rate of Fire
     m_Metadata:
       m_Items: []
+  - m_Id: 10274953278525440
+    m_Localized: Press any button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10275448063791104
+    m_Localized: Press 'space' to skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10275391352606720
+    m_Localized: 'Year 3021,
+
+      The human race is near extintion because of an
+      alien attack.
+
+
+      The attempt at stopping them from the united nations
+      failed,; given their number superiority and their advanced technology, they
+      have a clear advantage for winning this war.
+
+
+      Now, with the planet in
+      decay and the human race borderline extintion, we still have one last ace up
+      the sleeve...'
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
