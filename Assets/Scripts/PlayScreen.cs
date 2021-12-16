@@ -13,6 +13,7 @@ public class PlayScreen : MonoBehaviour
     public AudioSource singleplayer;
     public AudioSource coop;
     public AudioSource online;
+    public AudioSource cancelsfx;
 
     void OnEnable()
     {
@@ -29,6 +30,7 @@ public class PlayScreen : MonoBehaviour
     }
     public void goBack()
     {
+        cancelsfx.Play();
         canvas4.SetActive(false);
         canvas3.SetActive(true);
         singleplayer.Stop();
