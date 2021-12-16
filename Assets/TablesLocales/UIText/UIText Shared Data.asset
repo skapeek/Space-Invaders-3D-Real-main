@@ -66,7 +66,27 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2760524395712512
-    m_Key: k_GoBackToMenu
+    m_Key: k_Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10264607864131584
+    m_Key: k_Return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10267667415961600
+    m_Key: k_Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10269795240906752
+    m_Key: k_Shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10269919463608320
+    m_Key: k_Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10270015940988928
+    m_Key: k_RoF
     m_Metadata:
       m_Items: []
   m_Metadata:

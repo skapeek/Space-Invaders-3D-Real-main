@@ -67,7 +67,27 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2760524395712512
-    m_Localized: Press "ESC" to go back to the menu
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10264607864131584
+    m_Localized: Return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10267667415961600
+    m_Localized: Previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10269795240906752
+    m_Localized: Shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10269919463608320
+    m_Localized: Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10270015940988928
+    m_Localized: Rate of Fire
     m_Metadata:
       m_Items: []
   references:

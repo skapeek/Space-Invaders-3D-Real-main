@@ -67,7 +67,27 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2760524395712512
-    m_Localized: "Presiona \"ESC\" para volver al men\xFA"
+    m_Localized: Siguiente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10264607864131584
+    m_Localized: Volver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10267667415961600
+    m_Localized: Anterior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10269795240906752
+    m_Localized: Escudo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10269919463608320
+    m_Localized: Velocidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10270015940988928
+    m_Localized: Velocidad de Disparo
     m_Metadata:
       m_Items: []
   references:
